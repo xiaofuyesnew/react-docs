@@ -1,8 +1,8 @@
 import { useState } from 'react'
 
 
-const Index = () => {
-  const [count, setCount] = useState(0)
+const Profile = () => {
+  const [count, setCount] = useState(1)
 
   const onClick = () => {
     setCount(count + 1)
@@ -16,4 +16,4 @@ const Index = () => {
   )
 }
 
-export default Index
+export default Profile
